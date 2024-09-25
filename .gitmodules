@@ -1,0 +1,9 @@
+[submodule "services/raptor-user-service"]
+	path = services/raptor-user-service
+	url = https://github.com/STO-KubSU/raptor-user-service
+[submodule "services/raptor-order-service"]
+	path = services/raptor-order-service
+	url = https://github.com/STO-KubSU/raptor-order-service
+[submodule "services/raptor-product-service"]
+	path = services/raptor-product-service
+	url = https://github.com/STO-KubSU/raptor-product-service
