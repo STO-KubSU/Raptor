@@ -1,0 +1,22 @@
+# docker-compose.yml
+version: '3'
+
+services:
+  raptor-user-service:
+    build: ./services/raptor-user-service
+    ports:
+      - "50051:50051"
+
+  raptor-order-service:
+    build: ./services/raptor-order-service
+    ports:
+      - "50052:50052"
+    depends_on:
+      - raptor-user-service
+
+  raptor-product-service:
+    build: ./services/raptor-product-service
+    ports:
+      - "50053:50053"
+    depends_on:
+      - raptor-order-service

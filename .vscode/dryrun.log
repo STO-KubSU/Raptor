@@ -1,0 +1,5 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/C4erries/prj/temp'
+go build -v ./cmd/raptor
+make: Leaving directory 'c:/Users/C4erries/prj/temp'
+ 
