@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Sep 25 18:33:11 2024
+# Make data base, printed on Wed Sep 25 18:54:25 2024
 
 # Variables
 
@@ -41,7 +41,7 @@ GOPATH = C:\Users\C4erries\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11020_YCBYTOBAOUZKZMBF
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_23332_DQJMFGHMFLMPKZDZ
 # environment
 STUDIO_VM_OPTIONS = F:\WebStorm\jetbra\vmoptions\studio.vmoptions
 # environment
@@ -73,7 +73,7 @@ GOLAND_VM_OPTIONS = F:\WebStorm\jetbra\vmoptions\goland.vmoptions
 # environment
 ONEDRIVE = C:\Users\C4erries\OneDrive
 # makefile
-CURDIR := c:/Users/C4erries/prj/temp
+CURDIR := c:/Users/C4erries/prj/Raptor
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
@@ -95,7 +95,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 11020
+VSCODE_PID = 23332
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -243,9 +243,9 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key c:/Users/C4erries/prj/temp, mtime 1727278381): 12 files, no impossibilities.
+# . (key c:/Users/C4erries/prj/Raptor, mtime 1727279601): 15 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -311,12 +311,12 @@ test:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 19 / storage = 143 B / avg = 7 B
-# current buf: size = 8162 B / used = 143 B / count = 19 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 169 B / avg = 7 B
+# current buf: size = 8162 B / used = 169 B / count = 22 / avg = 7 B
 
-# strcache performance: lookups = 34 / hit rate = 44%
+# strcache performance: lookups = 37 / hit rate = 40%
 # hash-table stats:
-# Load=19/8192=0%, Rehash=0, Collisions=0/34=0%
-# Finished Make data base on Wed Sep 25 18:33:11 2024
+# Load=22/8192=0%, Rehash=0, Collisions=0/37=0%
+# Finished Make data base on Wed Sep 25 18:54:25 2024
 
  

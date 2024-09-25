@@ -1,5 +1,5 @@
 make.exe --dry-run --always-make --keep-going --print-directory
-make: Entering directory 'c:/Users/C4erries/prj/temp'
+make: Entering directory 'c:/Users/C4erries/prj/Raptor'
 go build -v ./cmd/raptor
-make: Leaving directory 'c:/Users/C4erries/prj/temp'
+make: Leaving directory 'c:/Users/C4erries/prj/Raptor'
  
